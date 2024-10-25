@@ -7,13 +7,18 @@ export const GithubSecao = styled.div`
   margin-top: 32px;
   margin-bottom: 64px;
 
-  @media (max-width: 768px) {
-    max-width: 80%;
-    display: block;
-  }
-
   img {
     height: 157px;
     object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+    display: block;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
   }
 `
